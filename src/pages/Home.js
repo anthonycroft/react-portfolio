@@ -1,17 +1,9 @@
+import Main from '../components/Main';
 
-
-const Home = ({ name, title}) => {
+const Home = (props) => {
 
     return <div>
-        <section className="splash">
-            <section>
-                <img src=""/>
-            </section>
-            <section>
-                <h1>My name is {name}</h1>
-                <p>Title:  {title} </p>
-            </section>
-        </section>
+        <Main title={props.title} />
     </div>
 }
 

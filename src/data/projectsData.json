@@ -1,0 +1,13 @@
+[
+  {
+    "name": "team-profile-generator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anthonycroft/team-profile-generator"
+    },
+    "screenshots": [
+      "https://github.com/anthonycroft/react-portfolio/blob/main/assets/images/team-profile-generator.png"
+
+    ]
+  }
+]

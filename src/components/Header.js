@@ -1,14 +1,19 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
-      <Link to="/">Home</Link>
-      <Link to="contact">Contact</Link>
-      <Link to="project">Project</Link>
+      <h3>{props.title}</h3>
+      <nav>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/work">Work</NavLink>
+      </nav>
     </header>
   );
 };
 
 
-export default Header
+export default Header;
